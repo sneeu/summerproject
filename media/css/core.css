@@ -1,0 +1,121 @@
+/* Inline */
+a {
+	border-bottom: 1px solid;
+	color: rgb(35, 82, 152);
+	padding-bottom: 1px;
+	text-decoration: none;
+}
+a:hover {
+	color: rgb(128, 0, 46);
+}
+em {
+	background: #ef9;
+}
+strong {
+	font-weight: bold;
+}
+
+/* Block */
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	line-height: 1em;
+	padding: 0.5em 0;
+}
+h3 {
+	font-size: 1.25em;
+	font-weight: bold;
+	line-height: 1.2em;
+	padding: 0 0 0.6em;
+}
+p,
+ol,
+ul {
+	padding: 0 0 1.5em;
+}
+ul li {
+	list-style: square;
+	margin-left: 1em;
+}
+
+/* Structure */
+html {
+	background: #ef9;
+	color: #222;
+}
+body {
+	font: 100%/1.5em "Helvetica Neue",Arial,Helvetica,sans-serif;
+	padding: 1.5em 0;
+}
+body > article {
+	background: #fff;
+	border-radius: 0.5em;
+	margin: 0 auto;
+	max-width: 640px;
+	padding: 1.5em;
+}
+footer {
+	color: #8b3;
+	margin: 0 auto;
+	max-width: 640px;
+	padding: 0.75em 1.5em;
+}
+footer a {
+	border: 0;
+	color: #8b3;
+}
+footer a:hover {
+	border-bottom: 1px solid;
+	color: #8b3;
+}
+
+/* Types */
+.asterisk {
+	color: #f60;
+}
+
+/* Forms */
+label {
+	display: block;
+}
+input[type=email],
+input[type=text] {
+	border: 1px solid #bbb;
+	font: 100%/1.5em "Helvetica Neue",Arial,Helvetica,sans-serif;
+	padding: 0.5em 10px;
+	max-width: 24em;
+	min-width: 330px;
+}
+button {
+	background: #8b3;
+	border: 1px solid #ac0;
+	border-radius: 0.25em;
+	color: #fff;
+	padding: 0.75em;
+}
+
+.field {
+	padding: 0 0 1.5em;
+}
+.field .question {
+	padding: 0.75em 0;
+}
+.field ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.field ul li input {
+	margin-right: 0.25em;
+}
+
+/* Instances */
+#sign_up {
+	margin: -0.5em;
+	padding: 0.5em;
+}
